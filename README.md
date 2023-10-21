@@ -17,8 +17,8 @@ Cette ligne à rajouter dans le fichier .html s'ouvre avec la balise orpheline <
     <title>Ma page</title>
     <link href="style.css" rel="stylesheet">
 </head>
-/*le css applique une propriété à plusieurs balises*/
 
+/_le css applique une propriété à plusieurs balises_/
 Ce code CSS signifie que nos titres de niveau 1 et nos paragraphes doivent s'afficher en bleu :
 
 h1 {
@@ -28,3 +28,12 @@ color: blue;
 p {
 color: blue;
 }
+
+Exemple de cumule des classes dans une même balise :
+
+<body>
+    <h1>Titre principal</h1>
+    <p>Ceci est le contenu de mon premier paragraphe</p>
+    <p class="ma-classe grand-texte">Ceci est le contenu de mon deuxième paragraphe</p>
+    <h2 class="grand-texte">Voilà mon sous-titre h2</h2>
+</body>
