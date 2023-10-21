@@ -1,6 +1,6 @@
 # Exercices HTML et CSS
 
-CECI EST UNE NOTICE
+Ceci est une notice de programmation pour l'explication, la documentation, la formation et l'apprentissage du code.
 
 href="mailto:NOMDUMAIL@MAIL.COM" crée un lien hypertexte qui ouvre la boîte mail avec un nouveau message vide.
 
