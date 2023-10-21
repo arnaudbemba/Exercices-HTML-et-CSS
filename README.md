@@ -9,3 +9,22 @@ href="NOMDEFICHIER.EXTENSION" crée un lien hypertexte qui permet de télécharg
 les termes montagne_mini.jpg et montagne.jpg permet de céer une miniature cliquable
 
  <!--les balises li, ul, ol sert à baliser et insérer des éléments dans une liste -->
+
+Cette ligne à rajouter dans le fichier .html s'ouvre avec la balise orpheline <link> et on la place à l'intérieur de la balise <head> </head> :
+
+<head>
+    <meta charset="utf-8">
+    <title>Ma page</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+/*le css applique une propriété à plusieurs balises*/
+
+Ce code CSS signifie que nos titres de niveau 1 et nos paragraphes doivent s'afficher en bleu :
+
+h1 {
+color: blue;
+}
+
+p {
+color: blue;
+}

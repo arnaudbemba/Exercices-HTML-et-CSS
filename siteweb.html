@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--la balise title affiche le titre dans l'onglet-->
     <title>LAIGLON</title>
-    <!--la balise link affice l'icone de l'onglet-->
+    <!--la balis <link> applique des propriété css sur la page html-->
+    <link rel="stylesheet" href="style.css" />
+    <!--la balise link rel affice l'icone de l'onglet-->
     <link rel="shortcut icon" href="titlelogo.png" />
     <link rel="stylesheet" href="" />
   </head>
@@ -18,7 +20,8 @@
       <img
         src="logoweb.png"
         title="Alors, envie d'avoir votre propre site internet n'est-ce pas ?"
-        alt="photo de LAIGLON"
+        alt="logo de LAIGLON"
+        id="logoweb"
       />
 
       <!--les termes a href= crée un lien sur le site web. Si la page se trouve dans un autre dossier on indique contenu/page.htlm; contenu/dossier/page.htlm; ../page.htlm-->
@@ -27,7 +30,6 @@
         <a href="a-propos.html">À propos</a>
         <a href="BlogLAIGLON.html" target="_blank">Le blog</a>
       </p>
-
       <h2>NOS PRESTATIONS</h2>
 
       <!--la balise # est suivi du nom de l'ancre qui est plus bas dans la même page-->
@@ -40,8 +42,8 @@
       </h3>
       <!--L'attribut  id  sert à donner un nom “unique” à une balise, pour s'en servir de repère.-->
       <h2 id="création">La création de Sites Web Personnalisés :</h2>
-      <!--la balise br renvoi à la ligne-->
-      <p>
+      <!--l'attribut class s'associe au paragraphe ici(il est possible de cumuler plusieurs classes dans une même balise)-->
+      <p class="unsite">
         Un site web est bien plus qu'une simple présence en ligne. C'est une
         opportunité de faire une première impression mémorable, de communiquer
         efficacement votre message et de convertir les visiteurs en clients
@@ -49,9 +51,10 @@
         étape, et c'est pourquoi nous mettons à votre disposition une équipe
         d'experts dévouée à la réalisation de votre vision.
       </p>
-
+      <!--la balise br renvoi à la ligne-->
       <p>
-        <strong>Définir Vos Objectifs et Besoins :</strong><br />
+        <strong class="definir">Définir Vos Objectifs et Besoins :</strong
+        ><br />
         La première étape du processus de création de site web est la définition
         claire de vos objectifs et besoins. Notre équipe travaillera en étroite
         collaboration avec vous pour comprendre votre entreprise, votre public
@@ -62,7 +65,9 @@
         complexe pour répondre à des besoins spécifiques.
       </p>
       <p>
-        <strong>Idées Créatives et Communication Continue : </strong><br />
+        <strong class="definir"
+          >Idées Créatives et Communication Continue : </strong
+        ><br />
         Nous croyons fermement en l'innovation et en la créativité. Une fois que
         nous avons une vision claire de vos objectifs, notre équipe se met au
         travail pour concevoir un site web qui non seulement atteint ces
@@ -75,7 +80,7 @@
         ajustements en cours de route.
       </p>
       <p>
-        <strong>Votre Vision au Cœur du Projet : </strong><br />
+        <strong class="definir">Votre Vision au Cœur du Projet : </strong><br />
         Chez LAIGLON, nous considéronsvotre vision comme le pilier de chaque
         projet. Nous mettons tout en œuvre pour que votre site web reflète votre
         identité et vos valeurs. Chaque élément du design, chaque ligne de code
@@ -109,7 +114,8 @@
       </p>
 
       <p>
-        <strong>Personnalisation pour la Distinction :</strong><br />
+        <strong class="definir">Personnalisation pour la Distinction :</strong
+        ><br />
         L'achat d'un site web prêt à l'emploi ne signifie pas de compromis sur
         l'originalité. LAIGLON est déterminé à personnaliser chaque site pour
         qu'il corresponde à votre marque, à vos valeurs et à vos objectifs.
@@ -120,7 +126,7 @@
       </p>
 
       <p>
-        <strong>Formation et Support :</strong><br />
+        <strong class="definir">Formation et Support :</strong><br />
         Nous ne vous laissons pas simplement avec votre nouveau site. LAIGLON
         vous offre une formation approfondie pour que vous puissiez gérer et
         mettre à jour votre site en toute confiance. De plus, notre équipe de
@@ -147,89 +153,95 @@
       </p>
 
       <p>
-        <strong>Préparez Vos Sites pour la Vente : </strong><br />La première
-        étape pour vendre avec succès un site web est de le préparer de manière
-        adéquate. Notre équipe d'experts vous guidera pour présenter vos sites
-        avec des descriptions détaillées et des démonstrations convaincantes.
-        Nous vous aiderons à évaluer la valeur de votre site en fonction de
-        facteurs tels que le trafic, les revenus et le potentiel de croissance.
+        <strong class="definir">Préparez Vos Sites pour la Vente : </strong
+        ><br />La première étape pour vendre avec succès un site web est de le
+        préparer de manière adéquate. Notre équipe d'experts vous guidera pour
+        présenter vos sites avec des descriptions détaillées et des
+        démonstrations convaincantes. Nous vous aiderons à évaluer la valeur de
+        votre site en fonction de facteurs tels que le trafic, les revenus et le
+        potentiel de croissance.
       </p>
       <p>
-        <strong>Trouvez des Acheteurs Qualifiés :</strong><br />Notre réseau
-        d'acheteurs potentiels est composé de personnes sérieuses et qualifiées
-        qui recherchent des opportunités en ligne. Nous mettrons en relation
-        votre site web avec des acheteurs qui comprennent sa valeur et son
-        potentiel.
+        <strong class="definir">Trouvez des Acheteurs Qualifiés :</strong
+        ><br />Notre réseau d'acheteurs potentiels est composé de personnes
+        sérieuses et qualifiées qui recherchent des opportunités en ligne. Nous
+        mettrons en relation votre site web avec des acheteurs qui comprennent
+        sa valeur et son potentiel.
       </p>
       <p>
-        <strong>Sécurisez la Transaction :</strong><br />La vente de sites web
-        peut être un processus complexe, mais chez LAIGLON, nous sommes là pour
-        simplifier et sécuriser la transaction. Nous vous guiderons à travers
-        les étapes de négociation, de transfert de propriété et de paiement pour
-        garantir que la transaction se déroule en douceur.
+        <strong class="definir">Sécurisez la Transaction :</strong><br />La
+        vente de sites web peut être un processus complexe, mais chez LAIGLON,
+        nous sommes là pour simplifier et sécuriser la transaction. Nous vous
+        guiderons à travers les étapes de négociation, de transfert de propriété
+        et de paiement pour garantir que la transaction se déroule en douceur.
       </p>
       <p>
-        <strong>Un Soutien Continu : </strong><br />Même après la vente, notre
-        équipe est disponible pour répondre à vos questions et préoccupations.
-        Nous sommes déterminés à offrir un service complet et transparent pour
-        que la transition se fasse sans tracas. La vente de sites web chez
-        LAIGLON est une opportunité pour tirer parti de votre travail acharné et
-        réaliser un retour sur investissement significatif. Nous croyons en la
-        maximisation de la valeur de chaque site que nous aidons à vendre. Si
-        vous envisagez de céder un site web que vous avez développé, LAIGLON est
-        votre partenaire idéal pour garantir que la transaction se déroule en
-        douceur et que vous obteniez la valeur que vous méritez. Contactez-nous
-        pour discuter de vos projets de vente de sites web.
+        <strong class="definir">Un Soutien Continu : </strong><br />Même après
+        la vente, notre équipe est disponible pour répondre à vos questions et
+        préoccupations. Nous sommes déterminés à offrir un service complet et
+        transparent pour que la transition se fasse sans tracas. La vente de
+        sites web chez LAIGLON est une opportunité pour tirer parti de votre
+        travail acharné et réaliser un retour sur investissement significatif.
+        Nous croyons en la maximisation de la valeur de chaque site que nous
+        aidons à vendre. Si vous envisagez de céder un site web que vous avez
+        développé, LAIGLON est votre partenaire idéal pour garantir que la
+        transaction se déroule en douceur et que vous obteniez la valeur que
+        vous méritez. Contactez-nous pour discuter de vos projets de vente de
+        sites web.
       </p>
       <h2 id="maintenance">La Maintenance de Sites Web :</h2>
-      La maintenance de sites web est un élément essentiel pour garantir que
-      votre présence en ligne reste performante, sécurisée et pertinente. Chez
-      LAIGLON, nous comprenons l'importance de cette prestation pour la
-      durabilité de votre site et la satisfaction de vos visiteurs. Notre
-      service de maintenance de sites web vise à vous offrir la tranquillité
-      d'esprit en maintenant votre site web à son meilleur.
       <p>
-        <strong>Mises à Jour de Sécurité :</strong><br />La sécurité en ligne
-        est une priorité absolue. Notre équipe de professionnels surveille
-        constamment les menaces potentielles et applique des mises à jour de
-        sécurité pour protéger votre site contre les vulnérabilités. La
-        maintenance régulière garantit que votre site reste à l'abri des
-        attaques et des violations de données. />
+        La maintenance de sites web est un élément essentiel pour garantir que
+        votre présence en ligne reste performante, sécurisée et pertinente. Chez
+        LAIGLON, nous comprenons l'importance de cette prestation pour la
+        durabilité de votre site et la satisfaction de vos visiteurs. Notre
+        service de maintenance de sites web vise à vous offrir la tranquillité
+        d'esprit en maintenant votre site web à son meilleur.
+      </p>
+
+      <p>
+        <strong class="definir">Mises à Jour de Sécurité :</strong><br />La
+        sécurité en ligne est une priorité absolue. Notre équipe de
+        professionnels surveille constamment les menaces potentielles et
+        applique des mises à jour de sécurité pour protéger votre site contre
+        les vulnérabilités. La maintenance régulière garantit que votre site
+        reste à l'abri des attaques et des violations de données.
       </p>
       <p>
-        <strong>Optimisation des Performances :</strong><br />Un site web rapide
-        et réactif est essentiel pour maintenir l'engagement des visiteurs. Nous
-        surveillons en permanence les performances de votre site, en nous
-        assurant qu'il se charge rapidement, offre une expérience utilisateur
-        fluide et est compatible avec les appareils et navigateurs actuels.
+        <strong class="definir">Optimisation des Performances :</strong><br />Un
+        site web rapide et réactif est essentiel pour maintenir l'engagement des
+        visiteurs. Nous surveillons en permanence les performances de votre
+        site, en nous assurant qu'il se charge rapidement, offre une expérience
+        utilisateur fluide et est compatible avec les appareils et navigateurs
+        actuels.
       </p>
       <p>
-        <strong>Actualisation du Contenu :</strong><br />Le contenu frais et
-        pertinent est essentiel pour fidéliser les visiteurs et améliorer votre
-        classement dans les moteurs de recherche. Notre équipe peut gérer la
-        mise à jour régulière de votre contenu, y compris la publication
-        d'articles de blog, l'ajout de nouveaux produits ou services, et la
-        modification des informations d'entreprise. />
+        <strong class="definir">Actualisation du Contenu :</strong><br />Le
+        contenu frais et pertinent est essentiel pour fidéliser les visiteurs et
+        améliorer votre classement dans les moteurs de recherche. Notre équipe
+        peut gérer la mise à jour régulière de votre contenu, y compris la
+        publication d'articles de blog, l'ajout de nouveaux produits ou
+        services, et la modification des informations d'entreprise. />
       </p>
       <p>
-        <strong>Support Technique : </strong><br />En cas de problème ou de
-        question, notre équipe de support technique est disponible pour vous
-        fournir une assistance rapide et efficace. Nous sommes là pour résoudre
-        tout problème technique, répondre à vos questions et vous guider dans
-        l'utilisation de votre site web.
+        <strong class="definir">Support Technique : </strong><br />En cas de
+        problème ou de question, notre équipe de support technique est
+        disponible pour vous fournir une assistance rapide et efficace. Nous
+        sommes là pour résoudre tout problème technique, répondre à vos
+        questions et vous guider dans l'utilisation de votre site web.
       </p>
       <p>
-        <strong>Contrats de Maintenance :</strong><br />our une tranquillité
-        d'esprit à long terme, envisagez de souscrire à l'un de nos contrats de
-        maintenance. Ces contrats offrent des services de maintenance régulière,
-        garantissant que votre site web reste en parfait état de fonctionnement.
-        La maintenance de sites web chez LAIGLON est une assurance pour la
-        continuité de l'expérience utilisateur. Nous prenons en charge la
-        sécurité, les performances et le contenu de votre site pour que vous
-        puissiez vous concentrer sur votre activité principale. Si vous cherchez
-        à maintenir votre site web en excellent état de fonctionnement et à
-        offrir une expérience utilisateur exceptionnelle, contactez-nous pour
-        discuter de nos services de maintenance.
+        <strong class="definir">Contrats de Maintenance :</strong><br />Pour une
+        tranquillité d'esprit à long terme, envisagez de souscrire à l'un de nos
+        contrats de maintenance. Ces contrats offrent des services de
+        maintenance régulière, garantissant que votre site web reste en parfait
+        état de fonctionnement. La maintenance de sites web chez LAIGLON est une
+        assurance pour la continuité de l'expérience utilisateur. Nous prenons
+        en charge la sécurité, les performances et le contenu de votre site pour
+        que vous puissiez vous concentrer sur votre activité principale. Si vous
+        cherchez à maintenir votre site web en excellent état de fonctionnement
+        et à offrir une expérience utilisateur exceptionnelle, contactez-nous
+        pour discuter de nos services de maintenance.
       </p>
 
       <h3>
@@ -239,15 +251,13 @@
         <a href="#maintenance">La maintenance</a>
       </h3>
 
-      <h1>
+      <h1 class="decou">
         Découvrez nos autres services :
         <!-- la balise # est situé entre la page et l'ancre qui sur une autre page--><a
           href="a-propos.html#web"
           >La création d'applications web</a
         >
-        <br /><a href="a-propos.html#mobile"
-          >La création d'applications mobile</a
-        >
+        <a href="a-propos.html#mobile">La création d'applications mobile</a>
       </h1>
 
       <!--les termes target="blank" fait en sorte que le lien hypertexte ouvre un nouvel onglet-->
