@@ -1,0 +1,17 @@
+/*ce code signifie tout les paragraphe en violet
+p{color: blueviolet;} */
+
+/*si les balises ont la même style, on combine la déclaration en séparant les noms des balises par une virgule*/
+
+h1,h2{color: blue;}
+
+/*appel de de l'attribut class via un point . */
+.definir{color:blueviolet ;}
+
+/*Dans le fichier css # appele l'attribut html*/
+#logoweb{
+    /*indiquez les propriétés ici*/
+}
+
+/*la balise font-size permet d'indiquer la taille du texte*/
+.decou{font-size: 22px;}
