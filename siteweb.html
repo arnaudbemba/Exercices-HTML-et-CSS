@@ -8,25 +8,44 @@
     <!--la balis <link> applique des propriété css sur la page html-->
     <link rel="stylesheet" href="style.css" />
     <!--la balise link rel affice l'icone de l'onglet-->
-    <link rel="shortcut icon" href="titlelogo.png" />
+    <link rel="shortcut icon" href="LAIGLON.jpg" />
     <link rel="stylesheet" href="" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?=Manrope:wght@300&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body>
+  <body class="banniere">
     <header>
+      <!---->
+
       <!--la balise h sert à créer un titre de niveau 1 à 6-->
-      <h1>Bienvenue Chez</h1>
+      <h1>Bienvenu Chez</h1>
+
       <!-- les termes img src insère une image depuis sa source et l'attribut title insère une bulle sur l'image-->
-      <img
-        src="logoweb.png"
-        title="Alors, envie d'avoir votre propre site internet n'est-ce pas ?"
-        alt="logo de LAIGLON"
-        id="logoweb"
-      />
+      <div style="text-align: center">
+        <img
+          src="LAIGLON.jpg"
+          title="Alors, envie d'avoir votre propre site internet n'est-ce pas ?"
+          alt="logo de LAIGLON"
+          id="logolaiglon"
+          height="500"
+        />
+      </div>
 
       <!--les termes a href= crée un lien sur le site web. Si la page se trouve dans un autre dossier on indique contenu/page.htlm; contenu/dossier/page.htlm; ../page.htlm-->
       <!--la balise p délimite les paragraphes-->
-      <p>
+      <p class="centre">
         <a href="a-propos.html">À propos</a>
         <a href="BlogLAIGLON.html" target="_blank">Le blog</a>
       </p>
@@ -34,11 +53,11 @@
 
       <!--la balise # est suivi du nom de l'ancre qui est plus bas dans la même page-->
 
-      <h3>
-        <a href="#création">La création</a>
-        <a href="#achat">L'achat</a>
-        <a href="#vente">La vente</a>
-        <a href="#maintenance">La maintenance</a>
+      <h3 class="manr">
+        <a href="#création" style="text-decoration: none">La création -</a>
+        <a href="#achat" style="text-decoration: none">L'achat -</a>
+        <a href="#vente" style="text-decoration: none">La vente -</a>
+        <a href="#maintenance" style="text-decoration: none">La maintenance</a>
       </h3>
       <!--L'attribut  id  sert à donner un nom “unique” à une balise, pour s'en servir de repère.-->
       <h2 id="création">La création de Sites Web Personnalisés :</h2>
@@ -244,14 +263,13 @@
         pour discuter de nos services de maintenance.
       </p>
 
-      <h3>
-        <a href="#création">La création</a>
-        <a href="#achat">L'achat</a>
-        <a href="#vente">La vente</a>
-        <a href="#maintenance">La maintenance</a>
+      <h3 class="manr">
+        <a href="#création" style="text-decoration: none">La création</a>
+        <a href="#achat" style="text-decoration: none">L'achat</a>
+        <a href="#vente" style="text-decoration: none">La vente</a>
+        <a href="#maintenance" style="text-decoration: none">La maintenance</a>
       </h3>
-
-      <h1 class="decou">
+      <h1 class="decou centre">
         Découvrez nos autres services :
         <!-- la balise # est situé entre la page et l'ancre qui sur une autre page--><a
           href="a-propos.html#web"

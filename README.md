@@ -37,3 +37,65 @@ Exemple de cumule des classes dans une même balise :
     <p class="ma-classe grand-texte">Ceci est le contenu de mon deuxième paragraphe</p>
     <h2 class="grand-texte">Voilà mon sous-titre h2</h2>
 </body>
+
+les tailles en em html
+
+<p class="elem1">Élément 1 : 1em</p>
+<p class="elem2">Élément 2 : 1.3em</p>
+<p class="elem3">Élément 3 : 2em</p>
+
+Pour utiliser la police de Google Fonts sélectionner une police, puis :
+
+Copiez les balises <link> dans le <head> </head> du fichier HTML.
+
+Utilisez la propriété font-family dans le fichier CSS pour déclarer que vous voulez utiliser cette police. Par exemple, pour la police Roboto, on vient coller dans le HTML :
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+Et on l'utilise dans le CSS en déclarant dans notre sélecteur :
+
+font-family: 'Roboto', sans-serif;
+
+En CSS, on donne une valeur à font-style pour dire si on veut que du texte soit en italique ou non :
+
+italic : le texte sera mis en italique ;
+
+normal : le texte sera normal (par défaut). Cela vous permet d'annuler une mise en italique. Par exemple, si vous voulez que les textes entre <em> ne soient plus en italique, vous devrez écrire :
+
+em
+{
+font-style: normal;
+}
+
+En CSS, on donne une valeur à font-style pour dire si on veut que du texte soit en italique ou non :
+
+italic : le texte sera mis en italique ;
+
+normal : le texte sera normal (par défaut). Cela vous permet d'annuler une mise en italique. Par exemple, si vous voulez que les textes entre <em> ne soient plus en italique, vous devrez écrire :
+
+em
+{
+font-style: normal;
+}
+
+La propriété CSS text-decoration permet, entre autres, de souligner le texte, mais pas seulement. Voici quelques-unes des différentes valeurs qu'elle peut prendre :
+
+underline: souligné ;
+
+line-through: barré ;
+
+none: normal (par défaut, sauf dans le cas des liens).
+
+Le propriété CSS text-align permet d'aligner du texte selon la valeur qu'on lui donne :
+
+left : le texte sera aligné à gauche (c'est le réglage par défaut) ;
+
+center : le texte sera centré ;
+
+right : le texte sera aligné à droite ;
+
+la propriété color permet de modifié la couleur du texte
+Sous forme hexadécimale (6 chiffres précédés d'un #). Exemple : color: #FFC8D3;
+
+En notation RGB (pour Red Green Blue en anglais). Exemple : color: rgb(250,25,118);. Notez qu'on peut ajouter la notion d'opacité (ou de transparence) avec la notation RGBA, où la dernière valeur correspond à l'opacité : color: rgba(250,25,118, 0.5);

@@ -4,15 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>À propos</title>
-    <link rel="shortcut icon" href="titlelogo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="LAIGLON.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="banniere">
     <header>
-      <h1>À Propos de LAIGLON</h1>
-      <a href="siteweb.html">Acceuil</a>
+      <h1 style="text-align: center">À Propos de LAIGLON</h1>
+      <div style="text-align: center">
+        <img
+          src="LAIGLON.jpg"
+          title="Alors, envie d'avoir votre propre site internet n'est-ce pas ?"
+          alt="logo de LAIGLON"
+          id="logolaiglon"
+          height="500"
+        />
+      </div>
+      <p class="centre">
+        <a href="siteweb.html">Acceuil</a>
+        <a href="BlogLAIGLON.html" target="_blank"> Le blog</a>
+      </p>
+      <br />
+
+      <!--la balise div selectionne un block de texte-->
+      <h1 class="decou souligner">Présentation</h1>
+
       <p>
         Chez LAIGLON, nous sommes une société passionnée par l'innovation web.
-        Notre histoire est marquée par la création de sites web sur mesure,
+        Notre histoire est marquée par la cration de sites web sur mesure,
         adaptés à vos besoins spécifiques. Notre engagement envers l'innovation
         nous pousse à rester à la pointe de la technologie et des tendances du
         web. Nous offrons des services de création de sites web personnalisés,
@@ -21,9 +52,10 @@
         une passion pour la créativité et la satisfaction du client. Rejoignez
         LAIGLON pour créer un avenir web novateur et original avec nous.
       </p>
-      <br />
-
-      <h1>La création d'applications web</h1>
+      <h1 class="decou">
+        <!--la balise span selectionne certains mots uniquement-->
+        <span class="souligner">La création d'applications web</span>
+      </h1>
       <p>
         Nos développeurs talentueux conçoivent des applications web
         personnalisées pour répondre à vos besoins spécifiques. Que vous
@@ -31,7 +63,9 @@
         outil en ligne, nous sommes là pour transformer vos idées en réalité.
       </p>
 
-      <h1>La création d'applications mobile</h1>
+      <h1 class="decou">
+        <span class="souligner">La création d'applications mobile</span>
+      </h1>
       <p>
         Avec l'essor des smartphones, les applications mobiles sont essentielles
         pour engager votre public. Nous créons des applications iOS et Android

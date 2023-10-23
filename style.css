@@ -3,15 +3,48 @@ p{color: blueviolet;} */
 
 /*si les balises ont la même style, on combine la déclaration en séparant les noms des balises par une virgule*/
 
-h1,h2{color: blue;}
+h2{font-size: 1.5em; color: #004AAD; font-family: 'Manrope', sans-serif;}
+h1{font-family:'Montserrat', sans-serif; color: #004AAD; font-size: 3.5em;}
 
 /*appel de de l'attribut class via un point . */
 .definir{color:blueviolet ;}
-
+.apropo{color: #004AAD;}
 /*Dans le fichier css # appele l'attribut html*/
-#logoweb{
+#logolaiglon{
     /*indiquez les propriétés ici*/
 }
 
 /*la balise font-size permet d'indiquer la taille du texte*/
 .decou{font-size: 22px;}
+.souligner{
+    text-decoration: underline;
+}
+/*ici on indique la taille en em sur html*/
+p{font-family: 'Manrope', sans-serif;
+    font-size: 1.1em;
+    }
+    .manr{font-family: 'Manrope', sans-serif;}
+    h3{
+    font-size: 2em; text-align: center;
+    }
+    
+    .elem3 {
+    font-size: 2em;
+    }
+    /*NB: la valeur px est fixe et la valeur em est relative, il est conseillé d'utiliser cette dernière*/
+
+    /* la propiété font-family* permet d'indique la police*/
+    .franklin{font-family: Arial, Helvetica, sans-serif;
+    }
+    .centre{text-align: center;}
+    .monste{font-family:'Montserrat', sans-serif;}
+    .non{text-decoration:none}
+    
+    body {font-family: sans-serif; margin: 0;/*cette propiété permet que les éléments prennent toute la largeur de la page*/
+        background-color: #EBE6C2;/* le fond de la page sera noir*/
+        color: rgb(0, 0, 0);/* le texte de la page sera blanc*/
+    }
+    .banniere{
+        padding: 100px;/* cette propriété permet d'ajouter de l'espace dans notre élément*/
+        background-image: url(banniere3.png)
+    }
