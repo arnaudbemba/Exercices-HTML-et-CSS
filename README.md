@@ -99,3 +99,19 @@ la propriété color permet de modifié la couleur du texte
 Sous forme hexadécimale (6 chiffres précédés d'un #). Exemple : color: #FFC8D3;
 
 En notation RGB (pour Red Green Blue en anglais). Exemple : color: rgb(250,25,118);. Notez qu'on peut ajouter la notion d'opacité (ou de transparence) avec la notation RGBA, où la dernière valeur correspond à l'opacité : color: rgba(250,25,118, 0.5);
+
+La propriété CSS background-attachment associée à la valeur fixed permet de rendre l'image de fond fixe lorsqu'on déroule la page web : background-attachment: fixed;
+
+La propriété CSS background-size associée à la valeur cover permet de redimensionner l'image afin qu'elle s'adapte à la taille de l'élément qui la contient (elle garde ses proportions, en rognant la largeur ou la hauteur en fonction de la taille de l'élément qui la contient) : background-size: cover;
+
+La propriété CSS background-position associée aux valeurs top , bottom , left , center ou right permet d'indiquer où doit se trouver l'image de fond, par exemple : background-position: top right;
+
+Chacune de ces 3 propriétés possède plusieurs valeurs possibles qu'on peut leur associer. Je vous invite à aller tester en direct sur le site de Mozilla Developer les différents effets possibles des propriétés :
+
+background-attachment ;
+
+background-size ;
+
+background-position.
+
+De nombreux paramètrages existent en ce qui concerne les images de fond. Si vous voulez en savoir plus, vous pouvez vous référer à la documentation de la propriété CSS background.

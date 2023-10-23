@@ -2,12 +2,15 @@
 p{color: blueviolet;} */
 
 /*si les balises ont la même style, on combine la déclaration en séparant les noms des balises par une virgule*/
+/* la propriété text-shadow ajoute une ombre au texte*/
 
-h2{font-size: 1.5em; color: #004AAD; font-family: 'Manrope', sans-serif;}
-h1{font-family:'Montserrat', sans-serif; color: #004AAD; font-size: 3.5em;}
+h2{font-size: 1.5em; color: #004AAD; font-family: 'Manrope', sans-serif; text-shadow: 3px 3px 0px rgba(0,0,0,0.2);}
+h1{font-family:'Montserrat', sans-serif; color: #004AAD; font-size: 3.5em;  font-size: 50px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    }
 
 /*appel de de l'attribut class via un point . */
-.definir{color:blueviolet ;}
+.definir{color:#785acd;}
 .apropo{color: #004AAD;}
 /*Dans le fichier css # appele l'attribut html*/
 #logolaiglon{
@@ -39,12 +42,36 @@ p{font-family: 'Manrope', sans-serif;
     .centre{text-align: center;}
     .monste{font-family:'Montserrat', sans-serif;}
     .non{text-decoration:none}
+    .droite{text-align: right;}
+
+
     
     body {font-family: sans-serif; margin: 0;/*cette propiété permet que les éléments prennent toute la largeur de la page*/
-        background-color: #EBE6C2;/* le fond de la page sera noir*/
-        color: rgb(0, 0, 0);/* le texte de la page sera blanc*/
+        background-color: #EBE6C2;/* le fond de la page sera beige*/
+        color: rgb(0, 0, 0);/* le texte de la page sera noir*/
     }
-    .banniere{
+    .banniere{ 
         padding: 100px;/* cette propriété permet d'ajouter de l'espace dans notre élément*/
         background-image: url(banniere3.png)
     }
+    .decor{background-image:linear-gradient(0.500deg,#785acd, #e8e1ac) ;}
+    .deco{background-image:linear-gradient(0.500deg,#e8e1ac, #785acd) ;}
+.banniere4{background-image: url(banniere4.png) ; background-size: 20%; height: 4em;}
+
+.liens{color:#004AAD;}
+
+/* la propiété css border peut ajouter et modifier l'apparence des bordures*/
+.none{
+    border-top: 3px #EB5353 dotted;
+    border-right: 3px #F9D923 double;
+    border-bottom: 3px #36AE7C dashed;
+    border-left: 3px #187498 solid;
+}
+.bord{font-size: 30px;
+    background-image:linear-gradient(0.500deg,#e8e1ac, #785acd);border-radius: 10px;}
+  /* la propriété box-shadow ajoute une ombre à la bordure*/
+   .button{ font-size: 25px;
+    background: color #e8e1ac;;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #785acd;
+   }
